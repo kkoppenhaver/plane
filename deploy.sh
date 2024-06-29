@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Step 1: Copy files from ~/Desktop/plane to ~/code/plane
+rm ~/Desktop/plane/index.html
+rm ~/Desktop/plane/TemplateData/style.css
 rsync -av ~/Desktop/plane/ ~/code/plane/
 
 # Step 2: Change directory to ~/code/plane
