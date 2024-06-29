@@ -15,6 +15,12 @@
   [headers.values]
     Content-Encoding = "js"
     Content-Type = "application/javascript"
+
+[[headers]]                                                                      
+  for = "/Build/*.js.gz"                                                             
+  [headers.values]
+    Content-Encoding = "js"
+    Content-Type = "application/javascript"
 	
 [[headers]]                                                                      
   for = "/Build/*.js.br"                                                             
